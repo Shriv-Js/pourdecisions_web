@@ -1,0 +1,243 @@
+@import url(/card-bg.png);
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #dcb359;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #2a3c3e;
+    border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+
+  /* Rest of your website styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    overflow-x: hidden;
+
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    height: 50vh;
+    /* padding-bottom: 100px; */
+}
+
+p {
+    /* font-family: 'Ubuntu Condensed', sans-serif; */
+    font-family: 'Alegreya', serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+h1,
+h2,li {
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.about-head {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-head p {
+    font-size: 1.167rem;
+    line-height: 2rem;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.center-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.center-content p {
+    line-height: 30px;
+    color: #dcb359;
+
+}
+
+.about-head h1 {
+    font-weight: 400;
+    font-variation-settings: normal;
+    font-style: normal;
+}
+
+.whoWeAre {
+    background-color: #2a3c3e;
+    color: #dcb359;
+    /* padding-bottom: 100px; */
+}
+
+.whoWeAre img {
+    width: 100%;
+    height: 90vh;
+}
+
+.services-cards {
+    background-image: url("/card-bg.png");
+    text-align: center;
+    align-items: center;
+    padding-bottom: 2.66rem;
+    border-radius: 1.33rem;
+    background-position: top left;
+    background-attachment: scroll;
+    border-style: solid;
+    max-width: 1288px;
+    border: none;
+    margin: auto;
+    padding-top: 100px;
+    padding: 100px;
+}
+
+.services-cards p {
+    color: rgb(95, 20, 20);
+}
+
+.card {
+    background: none !important;
+}
+.services-cards .card img{
+    height: 100%;
+    width: 100%;
+}
+.services-cards h2 {
+    color: rgb(95, 20, 20)
+}
+
+.services-outer {
+    background-color: #2a3c3e;
+    padding-top: 150px;
+}
+
+.slider {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slick-slide {
+    margin: 0 10px;
+}
+
+.card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+#download_app {
+    background: linear-gradient(180deg, #000000 0%, hsl(21, 100%, 6%) 100%);
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
+}
+
+.upper_head h1 {
+    color: white;
+    font-size: 62px;
+}
+
+.upper_head img {
+    height: 150px;
+}
+
+.app img {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.app img:hover {
+    border-color: #dcb359;
+}
+
+.animated-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+
+  .fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+
+/* media query starts */
+@media (max-width:767px) {
+    .services-cards {
+        margin: 0;
+        padding: 50px;
+        padding: 100px;
+    }
+
+    .card {
+        margin: 20px;
+    }
+    .download_app{
+    }
+    .download_app img{
+        height: 200px;
+        width: 200px;
+    }
+    .upper_head h1{
+        font-size: 42px;
+    }
+    .navbar .nav-second img{
+        margin: 0 !important;
+        height: 100px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .services-cards {
+        margin: 0;
+        padding: 50px;
+        padding: 100px;
+    }
+    .services_text h1{
+        font-size: 42px;
+    }
+}
+@media (max-width:767px) {
+    .services-cards {
+        margin: 0;
+        padding: 50px;
+        padding: 100px;
+    }
+    .services_text h1{
+        font-size: 42px;
+    }
+    /* .services_text p{
+        font-size: 12px;
+    } */
+}

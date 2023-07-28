@@ -1,0 +1,110 @@
+
+.footer {
+    /* background: #eee !important; */
+    background: #2a3c3e !important;
+    color: #fff;
+    padding-top: 100px;
+}
+.footer img{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+.footer a {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    font-weight: lighter;
+
+}
+p{
+    font-family: 'Alegreya', serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.footer a:hover {
+    color: #fff;
+    font-weight: 400;
+}
+h5{
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.copyright{
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.footer p {
+    font-weight: 100;
+    font-family: 'Alegreya', serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.footer li {
+    list-style: none;
+    color: #fff;
+    font-family: 'Alegreya', serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+
+.footer-bottom ul {
+    gap: 20px;
+}
+
+.footer-bottom a:hover {
+    color: #dcb359;
+}
+
+.footer-section {
+    padding: 10px;
+    margin: 0 auto;
+    /* max-width: 1420px !important; */
+}
+
+.footer ul {
+    padding-left: unset;
+
+}
+
+.footer ul li {
+    padding-left: 0;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.footer-bottom {
+    font-size: 15px;
+    font-weight: 200;
+}
+.app img{
+    /* height: 150px; */
+    width: 150px;
+    height: 50px;
+    margin: auto;
+}
+.social-icons ul li a {
+    background-color: white;
+}
+
+.footer .contact .social-icons ul {
+    gap: 20px;
+}
+
+.footer .cont-us a {
+    color: #fff;
+}
+
+.footer p {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.download {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

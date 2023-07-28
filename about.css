@@ -1,0 +1,119 @@
+@import url(/about.jpeg);
+
+.about-section {
+    background-image: url(/about.jpeg);
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+
+.process-hero {
+    background-color: rgb(58, 15, 15) !important;
+    background-image: none;
+    margin: auto;
+
+}
+
+.process-hero h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: auto !important;
+    margin-top: 100px !important;
+    margin-bottom: -100px;
+}
+
+.about-section h1 {
+    margin-left: 50px;
+    width: 20%;
+    color: white;
+}
+
+.about-us img {
+    width: 700px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.about-us {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card-body{
+    margin: auto;
+}
+div#carouselExampleDark{
+    box-shadow: 2px 2px 20px #d8d8d8;
+    border-radius: 10px;
+}
+
+.about-us .about-content {
+    /* width: 700px; */
+    margin: auto;
+}
+.about-founders p{
+    width: 700px;
+    margin: auto;
+}
+.about-founders{
+    margin-bottom: 50px;
+}
+.about-us .process-content {
+    text-align: left;
+}
+.carousel-inner img {
+    width: 500px !important;
+    margin: auto !important;
+}
+
+/* .about-us .brown-para p{
+    margin-top: 0 !important;
+} */
+.card {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    margin-bottom: 20px;
+    border: none !important;
+}
+
+.card h3,p{
+text-align: left;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 100%;
+    height: 100%;
+}
+
+@media (max-width:991px) {
+    .about-us img {
+        width: 100%;
+        /* height: 50%; */
+    }
+
+    .about-us {
+        padding: 20px;
+    }
+
+    .about-us .about-content {
+        width: 100% !important;
+    }
+
+    .process-hero h1 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: auto !important;
+        margin: auto !important;
+    }
+    .card {
+        display:inline;
+        flex-direction: row !important;
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+   
+}

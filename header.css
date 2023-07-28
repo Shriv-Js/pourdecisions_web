@@ -1,0 +1,83 @@
+.navbar-nav {
+    margin: auto;
+    align-items: center;
+}
+
+.top-nav .navbar-nav1 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a {
+    align-items: center;
+    font-family: 'Alegreya', serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.navbar-brand {
+    z-index: 2;
+}
+
+.nav-top {
+    background-color: #dcb359;
+}
+
+.nav-top .nav-link {
+    color: #2a3c3e;
+    /* margin-right: 200px; */
+    font-family: 'Alegreya', serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.navbar {
+    background-color: #2a3c3e;
+}
+
+.navbar .para marquee {
+    color: #dcb359;
+    font-size: 24px;
+    /* transition-delay: .2s; */
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+
+.navbar .nav-second {
+    background-color: #2a3c3e;
+    display: flex;
+    justify-content: center !important;
+
+}
+
+.navbar .nav-second img {
+
+    margin: -6px 100px -140px 0;
+
+}
+
+.navbar button {
+    background: transparent;
+    border: 2px solid #dcb359;
+    color: #dcb359;
+    padding: 20px;
+    font-family: 'Alegreya', serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.navbar button:hover{
+    background-color: #dcb359;
+    color: #2a3c3e;
+
+}
+
+
+
+@media (max-width:768px) {
+    .navbar button{
+        padding: 10px;
+    }
+}

@@ -1,0 +1,240 @@
+@import url(/about.jpeg);
+@import url(/fixed-img.jpeg);
+
+.services-section {
+    background-image: url(/services-banner.avif);
+    padding-top: 150px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.services-section h1 {
+    margin-left: 50px;
+    color: #ffae00;
+    font-size: 72px;
+    text-align: center;
+}
+
+.services-section h1 span {
+    color: #2a3c3e;
+}
+
+.services-us img {
+    width: 700px;
+    height: 500px;
+}
+
+.services-us {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+#perfect_wine {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    background: #274d502b;
+}
+
+.wines {
+    text-align: center;
+    align-items: center;
+}
+
+.text_div h2 {
+    font-size: 52px;
+    font-weight: bold;
+    color: #2a3c3e;
+}
+
+.text_div p {
+    color: #2a3c3e;
+    font-size: 20px;
+}
+
+#perfect_wine img {
+    box-shadow: 0px 20px 11px -20px #30584e;
+}
+
+.animated-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.best_of_roses {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1320px;
+    margin: auto;
+}
+
+.card img {
+    width: 100px;
+    height: 300px;
+}
+
+.card {
+    align-items: center;
+    border: none !important;
+}
+
+.rose_div h1 {
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #2a3c3e;
+}
+
+.card-top .card p img {
+    height: 50px;
+    width: 50px;
+}
+
+.rose_div h1::before {
+    content: "";
+    position: absolute;
+    /* bottom: -14px; */
+    /* top: 0; */
+    left: 0;
+    left: calc(50% - 30.5px);
+    width: 61px;
+    height: 4px;
+    background: #ffae00;
+    margin: 63px 0 0 0;
+}
+
+.card-top {
+    background: #ffeedf;
+    border-right: 4px solid #fff;
+}
+
+.newsletter {
+    background-color: #dcb359;
+    padding: 40px;
+    text-align: center;
+    color: #2a3c3e;
+    border-radius: 200px 200px 0 0;
+}
+
+.newsletter h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #2a3c3e;
+    color: #dcb359;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+    background-color: #555;
+}
+
+
+.services_first {
+    margin: auto;
+    background: #2a3c3e;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.services_text h1 {
+    font-size: 62px;
+    font-weight: bold;
+}
+.services_first p{
+    font-size: 20px;
+}
+
+.service_inner {
+    width: 1320px;
+    margin: auto;
+    color: #dcb359;
+}
+
+.fixed_img {
+    background-image: url("/fixed-img.jpeg");
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fixed_img h1 {
+    color: #fff;
+    font-size: 62px;
+    margin: auto;
+    text-align: center;
+}
+.fixed_img1 {
+    background-image: url("/giphy1.gif");
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.fixed_img1 h1 {
+    color: #fff;
+    font-size: 62px;
+    margin: auto;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .card {
+        margin-left: 20px;
+    }
+    .service_inner{
+        width: 100%;
+        padding: 20px;
+    }
+    .service_inner img{
+        height: 100%;
+        width: 100%;
+    }
+}
